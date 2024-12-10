@@ -18,5 +18,9 @@ int main(int argc, char* argv[]) {
 	}
 	int result = square(n);
 	std::cout << result << std::endl;
+
+	result = cube(n);
+	std::cout << result << std::endl;
+	//Lisätty uusi mahtava funktion cube Kutsu. 
 	return 0;
 }
