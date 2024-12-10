@@ -1,7 +1,12 @@
+//Tehd‰‰n muutos jotta saadaan kokeiltua puskemista gittiin. 
+
+
 #include <iostream>
 #include <cstdlib>
 #include "compute.h"
 int main(int argc, char* argv[]) {
+	
+
 	if (argc < 2) {
 		std::cout << "Usage: square number (where number is integer)" << std::endl;
 		return 1;
